@@ -237,3 +237,4 @@ if __name__ == "__main__":
     window = MainWindow()  # Création de la fenêtre principale
     window.show()  # Affichage de la fenêtre
     sys.exit(app.exec_())  # Exécution de l'application
+#pipi de clodo
