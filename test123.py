@@ -214,8 +214,3 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     mainWin = MainWindow()
     mainWin.show()
-<<<<<<< HEAD
-    sys.exit(app.exec_())
-=======
-    sys.exit(app.exec_())
->>>>>>> 53b0069c28c952e498ad1ddd49cda1cce20321d9
