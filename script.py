@@ -120,7 +120,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # Photo de la personne (avec une image réelle réduite)
         photo_label = QtWidgets.QLabel()
-        photo = QtGui.QPixmap("projet_M1/image.jpg")  # Remplace par le chemin de ton fichier image
+        photo = QtGui.QPixmap("image.jpg")  # Remplace par le chemin de ton fichier image
 
         # Redimensionner l'image pour qu'elle soit plus petite tout en gardant ses proportions
         photo = photo.scaled(100, 100, QtCore.Qt.KeepAspectRatio, QtCore.Qt.SmoothTransformation)
