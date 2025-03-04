@@ -152,7 +152,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # Patient image (resize image)
         patient_image = QtWidgets.QLabel()
-        pixmap = QtGui.QPixmap("path/to/your/image.jpg")  # Change to actual image path
+        pixmap = QtGui.QPixmap("/Users/clementine/Desktop/projetM1/image.jpg")  # Change to actual image path
         patient_image.setPixmap(pixmap.scaled(100, 100, QtCore.Qt.KeepAspectRatio))
         sidebar_right_layout.addWidget(patient_image)
 
